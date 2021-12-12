@@ -1,0 +1,45 @@
+body {
+  background: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  overflow: hidden;
+}
+
+.hypermenu.popup {
+  border-radius: 6px;
+  background-color: var(--background);
+  padding: 6px 0;
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+.button {
+  padding: 12px 12px;
+  margin: 0 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: .8em;
+  background: var(--background);
+  border-radius: 4px;
+  transition: all;
+  color: var(--text);
+  transition-duration: 300ms;
+}
+
+.button:not(:last-child) {
+  margin: 0 6px 6px 6px;
+}
+
+.button:hover {
+  background-color: var(--hover);
+  color: var(--texthover);
+}
+
+hr.divider {
+  border-bottom: none;
+  border-top: 2px solid var(--separator);
+  border-left: none;
+  border-right: none;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}

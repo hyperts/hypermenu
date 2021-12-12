@@ -1,0 +1,42 @@
+
+.hypermenu.wrapper {
+  display: flex;
+  order: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  transition: all;
+  transition-duration: .3s;
+}
+
+.hypermenu.display {
+  opacity: 1;
+  background-color: #161616;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: calc(var(--barsize) - 12px);
+  height: calc(var(--barsize) - 12px);
+  min-width: calc(var(--barsize) - 12px);
+  min-height: calc(var(--barsize) - 12px);
+  transition: all;
+  transition-duration: .3s;
+}
+
+.hypermenu.wrapper:hover .hypermenu.display {
+  filter: saturate(2);
+}
+
+.hypermenu.icondown {
+  background-color: transparent;
+  stroke: var(--text);
+  opacity: .5;
+  transition: all;
+  margin-left: 6px;
+  transition-duration: .3s;
+}
+
+.hypermenu.wrapper:hover .hypermenu.icondown {
+  stroke: var(--accent);
+}
