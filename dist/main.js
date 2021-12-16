@@ -26,7 +26,7 @@ function default_1() {
                     contextIsolation: false,
                 }
             });
-            (_b = api.windows) === null || _b === void 0 ? void 0 : _b.hypermenu.loadURL('widgets://hyper-menu/assets/menu.html');
+            (_b = api.windows) === null || _b === void 0 ? void 0 : _b.hypermenu.loadURL('widgets://hypermenu/assets/menu.html');
             (_c = api.windows) === null || _c === void 0 ? void 0 : _c.hypermenu.on('close', function () {
                 var _a;
                 (_a = api.windows) === null || _a === void 0 ? true : delete _a.hypermenu;

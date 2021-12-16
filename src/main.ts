@@ -24,7 +24,7 @@ export default function () {
         }
       })
   
-      api.windows?.hypermenu.loadURL('widgets://hyper-menu/assets/menu.html')
+      api.windows?.hypermenu.loadURL('widgets://hypermenu/assets/menu.html')
 
       api.windows?.hypermenu.on('close', () =>{
         delete api.windows?.hypermenu
